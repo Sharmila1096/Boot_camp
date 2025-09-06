@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: black;
+}
+header {
+  background: black;
+  color: blue;
+  padding: 1rem 2rem;
+}
+.navbar {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  color: violet;
+}
+.section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.skills-container, .projects-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.skill, .project-card {
+  background: bisque;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+}
